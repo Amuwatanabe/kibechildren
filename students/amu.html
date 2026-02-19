@@ -20,16 +20,26 @@
 		<div class="common-container header-container">
 			<div class="site">
 				<a href="../index.html">
-					<img src="../images/logo.svg" alt="">
+					<img src="../images/logo.svg" alt="Ctrl&plus;z">
 					<h1>Ctrl&plus;z</h1>
 				</a>
 			</div>
 			<div class="nav-wrap">
-				<button class="nav-btn">
-					<i class="fa-solid fa-bars"></i>
-					<span class="sr-only">Menu</span>
+				<button class="nav-btn" aria-label="menu">
+					<span></span>
+					<span></span>
+					<span></span>
 				</button>
-			</div><!--/.nav-wrap-->
+			</div>
+
+			<nav class="nav">
+				<ul>
+					<li><a href="../index.html">TOP</a></li>
+					<li><a href="../teachers/msg2kb.html">きべ先生へ</a></li>
+					<li><a href="../teachers/msg2km.html">かわむら先生へ</a></li>
+				</ul>
+			</nav>
+			<div class="nav-overlay"></div>
 		</div><!-- /.header-container -->
 	</header>
 
@@ -47,7 +57,7 @@
 		<div class="classmate-container">
 			<div class="chara-card">
 				<div class="classmate-visual">
-					<img src="../images/amu_L.svg">
+					<img src="../images/amu_L.svg" alt="あむちゃん" width="300" height="300">
 				</div><!--/.classmate-visual-->
 				<section class="classmate-text">
 					<h3>あむ</h3>
@@ -84,6 +94,9 @@
 
 	<!-- ＊＊＊＊＊＊＊＊＊＊＊＊ひよこアニメーション用JS＊＊＊＊＊＊＊＊＊＊＊＊ -->
 	<script src="../js/chick-anime.js"></script>
+
+	<!-- ＊＊＊＊＊＊＊＊＊＊＊＊navメニュー用JS＊＊＊＊＊＊＊＊＊＊＊＊ -->
+	<script src="../js/nav-anime.js"></script>
 
 </body>
 
